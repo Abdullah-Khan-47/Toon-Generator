@@ -9,7 +9,9 @@ Original file is located at
 ### Importing Modules
 """
 
-pip install d2l # Note: If prompted to restart, please do so and run the proceeding cells.
+#comment
+
+pip install d2l # Note: If prompted to restart, please do so and run the proceeding cell.
 
 import torch
 import torchvision
