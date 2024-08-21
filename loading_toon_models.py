@@ -10,7 +10,7 @@ Original file is located at
 This notebook will outline the process of loading a trained generator. We will start by copying the architecture of the generator from our main training notebook. We will then update the model's states using the state dictionary that can be downloaded at the end of training.
 """
 
-# importing
+# importing modules
 import torch
 import torch.nn as nn
 import matplotlib.pyplot as plt
