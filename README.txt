@@ -17,7 +17,14 @@ The GAN in this project was trained on Google's toon dataset(Link: https://googl
 
 ## Model Architecture
 For this model, I had to find a balance between complexity, and resource availability. My initial plan was for the model to have the first hidden layer contain 64X64 pixels, however, that seemed to require significantly more resources than available. Because of this, I lowered the number of neurons. The final generator had six layers, each with a decreasing number of neurons from the one preceding it for the most part. The final layer outputted a 128X128X3 tensor, representing the output image.
-The discriminator took a sample 128X128 image, passed it through five hidden layers, each with an increasing number of neurons, and outputted a binary prediction value that would identify the inputted image as either real or fake. 
+The discriminator takes a sample 128X128 image, passes it through five hidden layers, each with an increasing number of neurons than the one preceding, and outputs a binary prediction value that would identify the inputted image as either real or fake. 
 
 ## GAN Training
+The training protocol is outlined in the this_toon_does_not_exist.py file. The script was made on the Google Colab environment, however, it could be slightly modified to run on a local GPU if one is available. By default, the training is done for 15 epochs, which takes some time. This could be increased for better results as outlined in the this_toon_does_not_exist.py file. The generator model can be downloaded after the protocol is completed for future use. 
+
+## GAN Results
+Loading and visualizing the results could be done using the loading_toon_models.py file. I have provided a trained model that could be loaded to visualize the results, however, I encourage you to try training your own model and visualize the results using the mentioned file after uploading on Google Colab. 
+
+## Sources
+
 
