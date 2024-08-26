@@ -23,7 +23,11 @@ The discriminator takes a sample 128X128 image, passes it through five hidden la
 The training protocol is outlined in the this_toon_does_not_exist.py file. The script was made on the Google Colab environment, however, it could be slightly modified to run on a local GPU if one is available. By default, the training is done for 15 epochs, which takes some time. This could be increased for better results as outlined in the this_toon_does_not_exist.py file. The generator model can be downloaded after the protocol is completed for future use. 
 
 ## GAN Results
-Loading and visualizing the results could be done using the loading_toon_models.py file. I have provided a trained model that could be loaded to visualize the results, however, I encourage you to try training your own model and visualize the results using the mentioned file after uploading on Google Colab. 
+Loading and visualizing the results could be done using the loading_toon_models.py file. I have provided a model trained for 110 epochs that could be loaded to visualize the results, however, I encourage you to try training your own model and visualize the results using the mentioned file after uploading on Google Colab. 
+The network showed relevant results as the smaller details like the eyes and nose were visible in the generated images. 
+
+
+
 
 ## Sources
 
