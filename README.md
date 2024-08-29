@@ -30,5 +30,4 @@ The network showed relevant results as the smaller details like the eyes and nos
 
 
 ## Sources
-
-
+This project was inspired in part by the viral GAN-assisted face generator, this-person-does-not-exist(link: https://this-person-does-not-exist.com). I wanted to try the same concept on a smaller scale and decided to use Google's toon-face dataset(Link: https://google.github.io/cartoonset/index.html). Finally, another inspiration was the publication by Aston Zhang and collegues(Link: chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://classic.d2l.ai/d2l-en-pytorch.pdf). The dive-into-deep-learning tools training of GAN for pokemon images was used as an inspiration. 
